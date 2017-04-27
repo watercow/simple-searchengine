@@ -34,3 +34,20 @@
 
 > mkvirtualenv  (虚拟环境) (环境变量添加WORKON_HOME)
 
+## 2.创建scrapy工程
+
+### 创建
+
+>  pip install -i https://pypi.douban.com/simple/ scrapy  
+
+> scrapy startproject (project_name)
+
+### 目录结构
+
+> scrapy.cfg配置文件，与django类似  
+
+> settings.py工程配置
+
+> pipelines.py数据存储相关
+
+> Items.py定义数据保存格式，类似django的form
