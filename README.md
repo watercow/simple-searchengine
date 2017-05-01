@@ -26,7 +26,20 @@
 
 ### 安装虚拟环境管理包virtualenvwrapper
 
-> pip install virtualenvwrapper  
+> pip install virtualenvwrapper 
+
+> pip install pypiwin32
+
+### mysql和navicat
+
+> mysql下载地址 https://dev.mysql.com/downloads/windows/
+
+> navicate https://www.navicat.com/cht/products/navicat-for-mysql
+
+> Linux: sudo apt-get install mysql-server
+
+> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;
+flush privileges;
 
 运行  
  
@@ -42,12 +55,14 @@
 
 > scrapy startproject (project_name)
 
+> scrapy genspider yqhh yqhh.werner.wiki
+
 ### 目录结构
 
 > scrapy.cfg配置文件，与django类似  
 
 > settings.py工程配置
 
-> pipelines.py数据存储相关
+> pipelines.py数据存储相关  
 
-> Items.py定义数据保存格式，类似django的form
+> Items.py定义数据保存格式，类似django的form  
